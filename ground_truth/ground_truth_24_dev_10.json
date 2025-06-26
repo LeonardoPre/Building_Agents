@@ -1,0 +1,578 @@
+[
+    {
+        "plant": "apfel",
+        "date": "11.04.2021",
+        "start_date": "01.05.2021",
+        "end_date": "22.05.2021",
+        "id": 0,
+        "is_blooming": false
+    },
+    {
+        "plant": "apfel",
+        "date": "05.04.2021",
+        "start_date": "01.05.2021",
+        "end_date": "22.05.2021",
+        "id": 1,
+        "is_blooming": false
+    },
+    {
+        "plant": "apfel",
+        "date": "12.03.2020",
+        "start_date": "16.04.2020",
+        "end_date": "08.05.2020",
+        "id": 2,
+        "is_blooming": false
+    },
+    {
+        "plant": "apfel",
+        "date": "28.02.2019",
+        "start_date": "19.04.2019",
+        "end_date": "08.05.2019",
+        "id": 3,
+        "is_blooming": false
+    },
+    {
+        "plant": "birke",
+        "date": "12.03.2020",
+        "start_date": "06.04.2020",
+        "end_date": "26.04.2020",
+        "id": 4,
+        "is_blooming": false
+    },
+    {
+        "plant": "birke",
+        "date": "28.02.2019",
+        "start_date": "06.04.2019",
+        "end_date": "27.04.2019",
+        "id": 5,
+        "is_blooming": false
+    },
+    {
+        "plant": "birke",
+        "date": "30.06.2023",
+        "start_date": "16.04.2023",
+        "end_date": "06.05.2023",
+        "id": 6,
+        "is_blooming": false
+    },
+    {
+        "plant": "birke",
+        "date": "01.02.2019",
+        "start_date": "06.04.2019",
+        "end_date": "27.04.2019",
+        "id": 7,
+        "is_blooming": false
+    },
+    {
+        "plant": "erle",
+        "date": "07.03.2020",
+        "start_date": "12.02.2020",
+        "end_date": "18.03.2020",
+        "id": 8,
+        "is_blooming": true
+    },
+    {
+        "plant": "erle",
+        "date": "24.02.2019",
+        "start_date": "22.02.2019",
+        "end_date": "22.03.2019",
+        "id": 9,
+        "is_blooming": true
+    },
+    {
+        "plant": "erle",
+        "date": "30.06.2023",
+        "start_date": "20.02.2023",
+        "end_date": "27.03.2023",
+        "id": 10,
+        "is_blooming": false
+    },
+    {
+        "plant": "erle",
+        "date": "27.02.2019",
+        "start_date": "22.02.2019",
+        "end_date": "22.03.2019",
+        "id": 11,
+        "is_blooming": true
+    },
+    {
+        "plant": "hasel",
+        "date": "30.06.2023",
+        "start_date": "12.01.2023",
+        "end_date": "16.03.2023",
+        "id": 12,
+        "is_blooming": false
+    },
+    {
+        "plant": "hasel",
+        "date": "01.02.2019",
+        "start_date": "05.02.2019",
+        "end_date": "15.03.2019",
+        "id": 13,
+        "is_blooming": false
+    },
+    {
+        "plant": "hasel",
+        "date": "05.04.2021",
+        "start_date": "10.02.2021",
+        "end_date": "18.03.2021",
+        "id": 14,
+        "is_blooming": false
+    },
+    {
+        "plant": "hasel",
+        "date": "15.01.2018",
+        "start_date": "20.01.2018",
+        "end_date": "31.03.2018",
+        "id": 15,
+        "is_blooming": false
+    },
+    {
+        "plant": "winterraps",
+        "date": "17.05.2022",
+        "start_date": "20.04.2022",
+        "end_date": "17.05.2022",
+        "id": 16,
+        "is_blooming": true
+    },
+    {
+        "plant": "winterraps",
+        "date": "04.06.2023",
+        "start_date": "22.04.2023",
+        "end_date": "21.05.2023",
+        "id": 17,
+        "is_blooming": false
+    },
+    {
+        "plant": "winterraps",
+        "date": "14.03.2020",
+        "start_date": "12.04.2020",
+        "end_date": "12.05.2020",
+        "id": 18,
+        "is_blooming": false
+    },
+    {
+        "plant": "winterraps",
+        "date": "28.02.2019",
+        "start_date": "18.04.2019",
+        "end_date": "19.05.2019",
+        "id": 19,
+        "is_blooming": false
+    },
+    {
+        "plant": "winterroggen",
+        "date": "18.05.2022",
+        "start_date": "18.05.2022",
+        "end_date": "29.05.2022",
+        "id": 20,
+        "is_blooming": true
+    },
+    {
+        "plant": "winterroggen",
+        "date": "23.06.2023",
+        "start_date": "21.05.2023",
+        "end_date": "02.06.2023",
+        "id": 21,
+        "is_blooming": false
+    },
+    {
+        "plant": "winterroggen",
+        "date": "29.04.2021",
+        "start_date": "29.05.2021",
+        "end_date": "10.06.2021",
+        "id": 22,
+        "is_blooming": false
+    },
+    {
+        "plant": "winterroggen",
+        "date": "11.04.2021",
+        "start_date": "29.05.2021",
+        "end_date": "10.06.2021",
+        "id": 23,
+        "is_blooming": false
+    },
+    {
+        "plant": "apfel",
+        "date": "11.04.2021",
+        "start_date": "01.05.2021",
+        "end_date": "22.05.2021",
+        "id": 0,
+        "is_blooming": false
+    },
+    {
+        "plant": "apfel",
+        "date": "05.04.2021",
+        "start_date": "01.05.2021",
+        "end_date": "22.05.2021",
+        "id": 1,
+        "is_blooming": false
+    },
+    {
+        "plant": "apfel",
+        "date": "12.03.2020",
+        "start_date": "16.04.2020",
+        "end_date": "08.05.2020",
+        "id": 2,
+        "is_blooming": false
+    },
+    {
+        "plant": "apfel",
+        "date": "28.02.2019",
+        "start_date": "19.04.2019",
+        "end_date": "08.05.2019",
+        "id": 3,
+        "is_blooming": false
+    },
+    {
+        "plant": "birke",
+        "date": "12.03.2020",
+        "start_date": "06.04.2020",
+        "end_date": "26.04.2020",
+        "id": 4,
+        "is_blooming": false
+    },
+    {
+        "plant": "birke",
+        "date": "28.02.2019",
+        "start_date": "06.04.2019",
+        "end_date": "27.04.2019",
+        "id": 5,
+        "is_blooming": false
+    },
+    {
+        "plant": "birke",
+        "date": "30.06.2023",
+        "start_date": "16.04.2023",
+        "end_date": "06.05.2023",
+        "id": 6,
+        "is_blooming": false
+    },
+    {
+        "plant": "birke",
+        "date": "01.02.2019",
+        "start_date": "06.04.2019",
+        "end_date": "27.04.2019",
+        "id": 7,
+        "is_blooming": false
+    },
+    {
+        "plant": "erle",
+        "date": "07.03.2020",
+        "start_date": "12.02.2020",
+        "end_date": "18.03.2020",
+        "id": 8,
+        "is_blooming": true
+    },
+    {
+        "plant": "erle",
+        "date": "24.02.2019",
+        "start_date": "22.02.2019",
+        "end_date": "22.03.2019",
+        "id": 9,
+        "is_blooming": true
+    },
+    {
+        "plant": "erle",
+        "date": "30.06.2023",
+        "start_date": "20.02.2023",
+        "end_date": "27.03.2023",
+        "id": 10,
+        "is_blooming": false
+    },
+    {
+        "plant": "erle",
+        "date": "27.02.2019",
+        "start_date": "22.02.2019",
+        "end_date": "22.03.2019",
+        "id": 11,
+        "is_blooming": true
+    },
+    {
+        "plant": "hasel",
+        "date": "30.06.2023",
+        "start_date": "12.01.2023",
+        "end_date": "16.03.2023",
+        "id": 12,
+        "is_blooming": false
+    },
+    {
+        "plant": "hasel",
+        "date": "01.02.2019",
+        "start_date": "05.02.2019",
+        "end_date": "15.03.2019",
+        "id": 13,
+        "is_blooming": true
+    },
+    {
+        "plant": "hasel",
+        "date": "05.04.2021",
+        "start_date": "10.02.2021",
+        "end_date": "18.03.2021",
+        "id": 14,
+        "is_blooming": false
+    },
+    {
+        "plant": "hasel",
+        "date": "15.01.2018",
+        "start_date": "20.01.2018",
+        "end_date": "31.03.2018",
+        "id": 15,
+        "is_blooming": true
+    },
+    {
+        "plant": "winterraps",
+        "date": "17.05.2022",
+        "start_date": "20.04.2022",
+        "end_date": "17.05.2022",
+        "id": 16,
+        "is_blooming": true
+    },
+    {
+        "plant": "winterraps",
+        "date": "04.06.2023",
+        "start_date": "22.04.2023",
+        "end_date": "21.05.2023",
+        "id": 17,
+        "is_blooming": false
+    },
+    {
+        "plant": "winterraps",
+        "date": "14.03.2020",
+        "start_date": "12.04.2020",
+        "end_date": "12.05.2020",
+        "id": 18,
+        "is_blooming": false
+    },
+    {
+        "plant": "winterraps",
+        "date": "28.02.2019",
+        "start_date": "18.04.2019",
+        "end_date": "19.05.2019",
+        "id": 19,
+        "is_blooming": false
+    },
+    {
+        "plant": "winterroggen",
+        "date": "18.05.2022",
+        "start_date": "18.05.2022",
+        "end_date": "29.05.2022",
+        "id": 20,
+        "is_blooming": true
+    },
+    {
+        "plant": "winterroggen",
+        "date": "23.06.2023",
+        "start_date": "21.05.2023",
+        "end_date": "02.06.2023",
+        "id": 21,
+        "is_blooming": false
+    },
+    {
+        "plant": "winterroggen",
+        "date": "29.04.2021",
+        "start_date": "29.05.2021",
+        "end_date": "10.06.2021",
+        "id": 22,
+        "is_blooming": false
+    },
+    {
+        "plant": "winterroggen",
+        "date": "11.04.2021",
+        "start_date": "29.05.2021",
+        "end_date": "10.06.2021",
+        "id": 23,
+        "is_blooming": false
+    },
+    {
+        "plant": "apfel",
+        "date": "11.04.2021",
+        "start_date": "01.05.2021",
+        "end_date": "22.05.2021",
+        "id": 0,
+        "is_blooming": false
+    },
+    {
+        "plant": "apfel",
+        "date": "05.04.2021",
+        "start_date": "01.05.2021",
+        "end_date": "22.05.2021",
+        "id": 1,
+        "is_blooming": false
+    },
+    {
+        "plant": "apfel",
+        "date": "12.03.2020",
+        "start_date": "16.04.2020",
+        "end_date": "08.05.2020",
+        "id": 2,
+        "is_blooming": false
+    },
+    {
+        "plant": "apfel",
+        "date": "28.02.2019",
+        "start_date": "19.04.2019",
+        "end_date": "08.05.2019",
+        "id": 3,
+        "is_blooming": false
+    },
+    {
+        "plant": "birke",
+        "date": "12.03.2020",
+        "start_date": "06.04.2020",
+        "end_date": "26.04.2020",
+        "id": 4,
+        "is_blooming": false
+    },
+    {
+        "plant": "birke",
+        "date": "28.02.2019",
+        "start_date": "06.04.2019",
+        "end_date": "27.04.2019",
+        "id": 5,
+        "is_blooming": false
+    },
+    {
+        "plant": "birke",
+        "date": "30.06.2023",
+        "start_date": "16.04.2023",
+        "end_date": "06.05.2023",
+        "id": 6,
+        "is_blooming": false
+    },
+    {
+        "plant": "birke",
+        "date": "01.02.2019",
+        "start_date": "06.04.2019",
+        "end_date": "27.04.2019",
+        "id": 7,
+        "is_blooming": false
+    },
+    {
+        "plant": "erle",
+        "date": "07.03.2020",
+        "start_date": "12.02.2020",
+        "end_date": "18.03.2020",
+        "id": 8,
+        "is_blooming": true
+    },
+    {
+        "plant": "erle",
+        "date": "24.02.2019",
+        "start_date": "22.02.2019",
+        "end_date": "22.03.2019",
+        "id": 9,
+        "is_blooming": true
+    },
+    {
+        "plant": "erle",
+        "date": "30.06.2023",
+        "start_date": "20.02.2023",
+        "end_date": "27.03.2023",
+        "id": 10,
+        "is_blooming": false
+    },
+    {
+        "plant": "erle",
+        "date": "27.02.2019",
+        "start_date": "22.02.2019",
+        "end_date": "22.03.2019",
+        "id": 11,
+        "is_blooming": true
+    },
+    {
+        "plant": "hasel",
+        "date": "30.06.2023",
+        "start_date": "12.01.2023",
+        "end_date": "16.03.2023",
+        "id": 12,
+        "is_blooming": false
+    },
+    {
+        "plant": "hasel",
+        "date": "01.02.2019",
+        "start_date": "05.02.2019",
+        "end_date": "15.03.2019",
+        "id": 13,
+        "is_blooming": true
+    },
+    {
+        "plant": "hasel",
+        "date": "05.04.2021",
+        "start_date": "10.02.2021",
+        "end_date": "18.03.2021",
+        "id": 14,
+        "is_blooming": false
+    },
+    {
+        "plant": "hasel",
+        "date": "15.01.2018",
+        "start_date": "20.01.2018",
+        "end_date": "31.03.2018",
+        "id": 15,
+        "is_blooming": true
+    },
+    {
+        "plant": "winterraps",
+        "date": "17.05.2022",
+        "start_date": "20.04.2022",
+        "end_date": "17.05.2022",
+        "id": 16,
+        "is_blooming": true
+    },
+    {
+        "plant": "winterraps",
+        "date": "04.06.2023",
+        "start_date": "22.04.2023",
+        "end_date": "21.05.2023",
+        "id": 17,
+        "is_blooming": false
+    },
+    {
+        "plant": "winterraps",
+        "date": "14.03.2020",
+        "start_date": "12.04.2020",
+        "end_date": "12.05.2020",
+        "id": 18,
+        "is_blooming": false
+    },
+    {
+        "plant": "winterraps",
+        "date": "28.02.2019",
+        "start_date": "18.04.2019",
+        "end_date": "19.05.2019",
+        "id": 19,
+        "is_blooming": false
+    },
+    {
+        "plant": "winterroggen",
+        "date": "18.05.2022",
+        "start_date": "18.05.2022",
+        "end_date": "29.05.2022",
+        "id": 20,
+        "is_blooming": true
+    },
+    {
+        "plant": "winterroggen",
+        "date": "23.06.2023",
+        "start_date": "21.05.2023",
+        "end_date": "02.06.2023",
+        "id": 21,
+        "is_blooming": false
+    },
+    {
+        "plant": "winterroggen",
+        "date": "29.04.2021",
+        "start_date": "29.05.2021",
+        "end_date": "10.06.2021",
+        "id": 22,
+        "is_blooming": false
+    },
+    {
+        "plant": "winterroggen",
+        "date": "11.04.2021",
+        "start_date": "29.05.2021",
+        "end_date": "10.06.2021",
+        "id": 23,
+        "is_blooming": false
+    }
+]

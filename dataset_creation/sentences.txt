@@ -1,0 +1,10 @@
+Stellen wir uns vor, heute sei der <datum>. Wir befinden uns in <berlin>. Blüht die <pflanze> aktuell?
+Heute ist der <datum>. Wir sind in <berlin>. Ist die <pflanze> gerade in ihrer Blütezeit?
+Angenommen, es wäre der <datum> und wir wären in <berlin>. Blüht die <pflanze> zu diesem Zeitpunkt?
+Heute, am <datum>, befinden wir uns in <berlin>. Ist die <pflanze> gerade am Blühen?
+Stellen wir uns vor, es ist der <datum> und wir sind in <berlin>. Blüht die <pflanze> jetzt?
+Angenommen, der heutige Tag ist der <datum>. Wir sind in <berlin>. Ist die <pflanze> gerade in Blüte?
+Heute ist der <datum>. Wir befinden uns in <berlin>. Blüht die <pflanze> derzeit?
+Angenommen, heute wäre der <datum>. Wir sind in <berlin>. Ist die <pflanze> gerade am Blühen?
+Stellen wir uns vor, es ist der <datum>. Wir befinden uns in <berlin>. Blüht die <pflanze> aktuell?
+Heute, am <datum>, sind wir in <berlin>. Ist die <pflanze> gerade in ihrer Blütezeit?

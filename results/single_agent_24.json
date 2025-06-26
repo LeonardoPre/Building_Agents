@@ -1,0 +1,338 @@
+[
+    {
+        "id": 0,
+        "plant": "Apfel",
+        "city": "Berlin",
+        "date": "11.04.2021",
+        "sentence": "Heute, am 11.04.2021, befinden wir uns in Berlin. Ist die Apfel gerade am Bl\u00fchen?",
+        "response": false,
+        "reasoning": "Am 11.04.2021 hat die Apfelbl\u00fcte in Deutschland im Mittel um den 01.05.2021 begonnen, mit einer Abweichung von 5 Tagen nach sp\u00e4ter. Das Bl\u00fchende endet im Mittel erst um den 22.05.2021 bis 26.05.2021. Somit bl\u00fcht die Apfel am 11.04.2021 noch nicht.",
+        "tokens": {
+            "total_tokens": 1895,
+            "prompt_tokens": 1712,
+            "completion_tokens": 183
+        }
+    },
+    {
+        "id": 1,
+        "plant": "Apfel",
+        "city": "M\u00fcnchen",
+        "date": "05.04.2021",
+        "sentence": "Stellen wir uns vor, es ist der 05.04.2021 und wir sind in M\u00fcnchen. Bl\u00fcht die Apfel jetzt?",
+        "response": false,
+        "reasoning": "Die Apfelbl\u00fcte begann im Jahr 2021 in Deutschland durchschnittlich am 1. Mai plus 5 Tage Abweichung, also etwa um den 6. Mai. Das aktuelle Datum ist der 5. April 2021, somit hat die Apfelbl\u00fcte zu diesem Zeitpunkt noch nicht begonnen.",
+        "tokens": {
+            "total_tokens": 1883,
+            "prompt_tokens": 1721,
+            "completion_tokens": 162
+        }
+    },
+    {
+        "id": 2,
+        "plant": "Apfel",
+        "city": "Leipzig",
+        "date": "12.03.2020",
+        "sentence": "Heute, am 12.03.2020, sind wir in Leipzig. Ist die Apfel gerade in ihrer Bl\u00fctezeit?",
+        "response": false,
+        "reasoning": "Die Bl\u00fctezeit der Apfel umfasst im Jahr 2020 in Deutschland etwa den Zeitraum vom 6. April (16.04. minus 10 Tage) bis zum 7. Mai (12.05. minus 4 Tage). Heute, am 12. M\u00e4rz 2020, befindet sich die Apfel noch nicht in der Bl\u00fctezeit.",
+        "tokens": {
+            "total_tokens": 1883,
+            "prompt_tokens": 1712,
+            "completion_tokens": 171
+        }
+    },
+    {
+        "id": 3,
+        "plant": "Apfel",
+        "city": "Leipzig",
+        "date": "28.02.2019",
+        "sentence": "Angenommen, heute w\u00e4re der 28.02.2019. Wir sind in Leipzig. Ist die Apfel gerade am Bl\u00fchen?",
+        "response": false,
+        "reasoning": "Die Apfelbl\u00fcte begann im Jahr 2019 etwa am 12. April (unter Ber\u00fccksichtigung der -7 Tage Abweichung vom Mittel, also ca. 19. April minus 7 Tage) und endete etwa um den 8. bis 12. Mai. Am 28. Februar 2019 w\u00e4re die Apfelbl\u00fcte in Leipzig somit noch nicht im Gange gewesen.",
+        "tokens": {
+            "total_tokens": 1902,
+            "prompt_tokens": 1721,
+            "completion_tokens": 181
+        }
+    },
+    {
+        "id": 4,
+        "plant": "Birke",
+        "city": "Magdeburg",
+        "date": "12.03.2020",
+        "sentence": "Heute ist der 12.03.2020. Wir befinden uns in Magdeburg. Bl\u00fcht die Birke derzeit?",
+        "response": false,
+        "reasoning": "Die Bl\u00fcte der Birke begann im Jahr 2020 in Deutschland durchschnittlich am 6. April und endete etwa am 26. April. Am 12. M\u00e4rz 2020 in Magdeburg hat die Birke also noch nicht begonnen zu bl\u00fchen.",
+        "tokens": {
+            "total_tokens": 1774,
+            "prompt_tokens": 1620,
+            "completion_tokens": 154
+        }
+    },
+    {
+        "id": 5,
+        "plant": "Birke",
+        "city": "D\u00fcsseldorf",
+        "date": "28.02.2019",
+        "sentence": "Angenommen, heute w\u00e4re der 28.02.2019. Wir sind in D\u00fcsseldorf. Ist die Birke gerade am Bl\u00fchen?",
+        "response": false,
+        "reasoning": "Die Bl\u00fcte der Birke begann im Jahr 2019 etwa am 29.03. (06.04. minus 8 Tage) und endete etwa am 24.04. (27.04. minus 3 Tage). Am 28.02.2019 ist die Birke daher noch nicht am Bl\u00fchen.",
+        "tokens": {
+            "total_tokens": 1796,
+            "prompt_tokens": 1629,
+            "completion_tokens": 167
+        }
+    },
+    {
+        "id": 6,
+        "plant": "Birke",
+        "city": "K\u00f6ln",
+        "date": "30.06.2023",
+        "sentence": "Stellen wir uns vor, es ist der 30.06.2023 und wir sind in K\u00f6ln. Bl\u00fcht die Birke jetzt?",
+        "response": true,
+        "reasoning": "Die Bl\u00fctezeit der Birke begann im Jahr 2023 um den 16. April und endete um den 6. Mai. Da das aktuelle Datum der 30. Juni 2023 ist, befindet sich die Birke au\u00dferhalb ihrer Bl\u00fctezeit und bl\u00fcht zu diesem Zeitpunkt nicht.",
+        "tokens": {
+            "total_tokens": 1789,
+            "prompt_tokens": 1629,
+            "completion_tokens": 160
+        }
+    },
+    {
+        "id": 7,
+        "plant": "Birke",
+        "city": "M\u00fcnchen",
+        "date": "01.02.2019",
+        "sentence": "Angenommen, es w\u00e4re der 01.02.2019 und wir w\u00e4ren in M\u00fcnchen. Bl\u00fcht die Birke zu diesem Zeitpunkt?",
+        "response": false,
+        "reasoning": "Die Birke beginnt im Jahr 2019 in Deutschland im Gebiet um M\u00fcnchen etwa am 06.04. zu bl\u00fchen. Am 01.02.2019 ist die Bl\u00fcte der Birke daher noch nicht begonnen.",
+        "tokens": {
+            "total_tokens": 1774,
+            "prompt_tokens": 1629,
+            "completion_tokens": 145
+        }
+    },
+    {
+        "id": 8,
+        "plant": "Erle",
+        "city": "Magdeburg",
+        "date": "07.03.2020",
+        "sentence": "Angenommen, der heutige Tag ist der 07.03.2020. Wir sind in Magdeburg. Ist die Erle gerade in Bl\u00fcte?",
+        "response": true,
+        "reasoning": "Die Bl\u00fctezeit der Erle im Jahr 2020 begann etwa am 12. Februar (mit einer Abweichung von -16 Tagen) und endete etwa am 18. M\u00e4rz (mit einer Abweichung von -9 Tagen). Am 7. M\u00e4rz 2020 liegt dieser Tag innerhalb des Bl\u00fctezeitraums, daher ist die Erle zu diesem Zeitpunkt in Magdeburg in Bl\u00fcte.",
+        "tokens": {
+            "total_tokens": 1758,
+            "prompt_tokens": 1575,
+            "completion_tokens": 183
+        }
+    },
+    {
+        "id": 9,
+        "plant": "Erle",
+        "city": "M\u00fcnchen",
+        "date": "24.02.2019",
+        "sentence": "Angenommen, der heutige Tag ist der 24.02.2019. Wir sind in M\u00fcnchen. Ist die Erle gerade in Bl\u00fcte?",
+        "response": true,
+        "reasoning": "Die Erle beginnt im Jahr 2019 in Deutschland etwa am 22. Februar zu bl\u00fchen (Beginn der Bl\u00fcte). Das Bl\u00fch-Ende liegt bei etwa dem 22. M\u00e4rz. Am 24. Februar 2019 befindet sich die Erle also in der Bl\u00fctezeit.",
+        "tokens": {
+            "total_tokens": 1729,
+            "prompt_tokens": 1569,
+            "completion_tokens": 160
+        }
+    },
+    {
+        "id": 10,
+        "plant": "Erle",
+        "city": "M\u00fcnchen",
+        "date": "30.06.2023",
+        "sentence": "Heute ist der 30.06.2023. Wir sind in M\u00fcnchen. Ist die Erle gerade in ihrer Bl\u00fctezeit?",
+        "response": false,
+        "reasoning": "Die Erle hat in 2023 in Deutschland ungef\u00e4hr am 20. Februar mit der Bl\u00fcte begonnen und endet ihre Bl\u00fctezeit ungef\u00e4hr am 27. M\u00e4rz. Am 30. Juni ist die Bl\u00fctezeit somit bereits vorbei.",
+        "tokens": {
+            "total_tokens": 1700,
+            "prompt_tokens": 1554,
+            "completion_tokens": 146
+        }
+    },
+    {
+        "id": 11,
+        "plant": "Erle",
+        "city": "N\u00fcrnberg",
+        "date": "27.02.2019",
+        "sentence": "Heute ist der 27.02.2019. Wir befinden uns in N\u00fcrnberg. Bl\u00fcht die Erle derzeit?",
+        "response": false,
+        "reasoning": "Die Erle beginnt im Jahr 2019 in Deutschland etwa um den 22. Februar zu bl\u00fchen und endet die Bl\u00fcte etwa um den 22. M\u00e4rz. Am 27. Februar 2019 ist die Erle also bereits in der Bl\u00fctezeit, daher bl\u00fcht sie derzeit.",
+        "tokens": {
+            "total_tokens": 1708,
+            "prompt_tokens": 1548,
+            "completion_tokens": 160
+        }
+    },
+    {
+        "id": 12,
+        "plant": "Hasel",
+        "city": "Stuttgart",
+        "date": "30.06.2023",
+        "sentence": "Heute, am 30.06.2023, befinden wir uns in Stuttgart. Ist die Hasel gerade am Bl\u00fchen?",
+        "response": false,
+        "reasoning": "Die Hasel beginnt in Stuttgart etwa um den 12. Januar zu bl\u00fchen und endet die Bl\u00fcte rund um den 16. M\u00e4rz. Am 30.06.2023 ist die Hasel daher nicht mehr am Bl\u00fchen.",
+        "tokens": {
+            "total_tokens": 1772,
+            "prompt_tokens": 1624,
+            "completion_tokens": 148
+        }
+    },
+    {
+        "id": 13,
+        "plant": "Hasel",
+        "city": "N\u00fcrnberg",
+        "date": "01.02.2019",
+        "sentence": "Heute ist der 01.02.2019. Wir sind in N\u00fcrnberg. Ist die Hasel gerade in ihrer Bl\u00fctezeit?",
+        "response": false,
+        "reasoning": "Die Hasel beginnt ihre Bl\u00fctezeit im Jahr 2019 in Deutschland im Gebietsmittel um den 05. Februar (mit einer Abweichung von -3 Tagen) und endet um den 15. M\u00e4rz (mit einer Abweichung von -1 Tag). Am 01. Februar 2019 ist die Hasel daher noch nicht in der Bl\u00fctezeit.",
+        "tokens": {
+            "total_tokens": 1798,
+            "prompt_tokens": 1624,
+            "completion_tokens": 174
+        }
+    },
+    {
+        "id": 14,
+        "plant": "Hasel",
+        "city": "Hamburg",
+        "date": "05.04.2021",
+        "sentence": "Angenommen, heute w\u00e4re der 05.04.2021. Wir sind in Hamburg. Ist die Hasel gerade am Bl\u00fchen?",
+        "response": false,
+        "reasoning": "Die Hasel beginnt im Jahr 2021 durchschnittlich am 12. Februar zu bl\u00fchen (10. Februar plus 2 Tage Abweichung). Die Bl\u00fcte endet im Jahr 2021 durchschnittlich am 20. M\u00e4rz (18. M\u00e4rz plus 2 Tage Abweichung). Am 5. April 2021 ist die Hasel somit nicht mehr am Bl\u00fchen.",
+        "tokens": {
+            "total_tokens": 1811,
+            "prompt_tokens": 1633,
+            "completion_tokens": 178
+        }
+    },
+    {
+        "id": 15,
+        "plant": "Hasel",
+        "city": "Hamburg",
+        "date": "15.01.2018",
+        "sentence": "Stellen wir uns vor, es ist der 15.01.2018. Wir befinden uns in Hamburg. Bl\u00fcht die Hasel aktuell?",
+        "response": false,
+        "reasoning": "Am 15.01.2018 hat die Hasel in Deutschland noch nicht gebl\u00fcht. Der Bl\u00fchbeginn lag gem\u00e4\u00df den Daten im Jahr 2018 im Mittel am 20.01. mit einer Abweichung von -19 Tagen, was ungef\u00e4hr dem 1. Januar entspricht. Somit ist zum 15. Januar die Hasel zwar kurz vor dem Bl\u00fchbeginn, aber noch nicht bl\u00fchend.",
+        "tokens": {
+            "total_tokens": 1819,
+            "prompt_tokens": 1636,
+            "completion_tokens": 183
+        }
+    },
+    {
+        "id": 16,
+        "plant": "Winterraps",
+        "city": "Stuttgart",
+        "date": "17.05.2022",
+        "sentence": "Angenommen, es w\u00e4re der 17.05.2022 und wir w\u00e4ren in Stuttgart. Bl\u00fcht die Winterraps zu diesem Zeitpunkt?",
+        "response": true,
+        "reasoning": "Der Bl\u00fchbeginn des Winterraps im Jahr 2022 lag im Gebiet Deutschland im Mittel am 20.04., mit einer Abweichung von -4 Tagen, somit etwa am 16.04. Das Bl\u00fchende endet im Jahr 2022 im Mittel zwischen 17.05. (74% Meldequote) und 20.05. (100% Meldequote) des gleichen Jahres. Am 17.05.2022 befindet sich der Winterraps somit noch in seiner Bl\u00fctezeit in Stuttgart.",
+        "tokens": {
+            "total_tokens": 1932,
+            "prompt_tokens": 1723,
+            "completion_tokens": 209
+        }
+    },
+    {
+        "id": 17,
+        "plant": "Winterraps",
+        "city": "Bremen",
+        "date": "04.06.2023",
+        "sentence": "Angenommen, heute w\u00e4re der 04.06.2023. Wir sind in Bremen. Ist die Winterraps gerade am Bl\u00fchen?",
+        "response": false,
+        "reasoning": "Der Winterraps hat im Jahr 2023 in Deutschland etwa am 20. April zu bl\u00fchen begonnen und die Bl\u00fcte endete ungef\u00e4hr Ende Mai. Am 4. Juni 2023 ist die Bl\u00fctezeit des Winterraps somit bereits vorbei.",
+        "tokens": {
+            "total_tokens": 1877,
+            "prompt_tokens": 1723,
+            "completion_tokens": 154
+        }
+    },
+    {
+        "id": 18,
+        "plant": "Winterraps",
+        "city": "M\u00fcnchen",
+        "date": "14.03.2020",
+        "sentence": "Angenommen, es w\u00e4re der 14.03.2020 und wir w\u00e4ren in M\u00fcnchen. Bl\u00fcht die Winterraps zu diesem Zeitpunkt?",
+        "response": false,
+        "reasoning": "Der Bl\u00fchbeginn von Winterraps im Jahr 2020 lag am 12.04. (bezogen auf Deutschland) und das Bl\u00fchende lag etwa im Mai. Am 14.03.2020 war Winterraps daher noch nicht in Bl\u00fcte.",
+        "tokens": {
+            "total_tokens": 1878,
+            "prompt_tokens": 1723,
+            "completion_tokens": 155
+        }
+    },
+    {
+        "id": 19,
+        "plant": "Winterraps",
+        "city": "Leipzig",
+        "date": "28.02.2019",
+        "sentence": "Stellen wir uns vor, es ist der 28.02.2019 und wir sind in Leipzig. Bl\u00fcht die Winterraps jetzt?",
+        "response": false,
+        "reasoning": "Die Bl\u00fctezeit von Winterraps in Deutschland begann im Jahr 2019 etwa am 12. April (18. April minus 6 Tage Abweichung) und endet gegen Ende Mai. Am 28. Februar 2019 ist Winterraps daher noch nicht in Bl\u00fcte.",
+        "tokens": {
+            "total_tokens": 1882,
+            "prompt_tokens": 1723,
+            "completion_tokens": 159
+        }
+    },
+    {
+        "id": 20,
+        "plant": "Winterroggen",
+        "city": "Bremen",
+        "date": "18.05.2022",
+        "sentence": "Heute ist der 18.05.2022. Wir befinden uns in Bremen. Bl\u00fcht die Winterroggen derzeit?",
+        "response": true,
+        "reasoning": "Der Bl\u00fchbeginn des Winterroggens im Jahr 2022 liegt im Gebiet Deutschland durchschnittlich um den 18.05., mit einer Abweichung von -3 Tagen, also etwa um den 15.05. Das Bl\u00fch-Ende liegt durchschnittlich um den 29.05. mit einer Abweichung von -3 Tagen, also etwa um den 26.05. Am 18.05.2022 befindet sich der Winterroggen somit in der Bl\u00fctezeit.",
+        "tokens": {
+            "total_tokens": 2002,
+            "prompt_tokens": 1801,
+            "completion_tokens": 201
+        }
+    },
+    {
+        "id": 21,
+        "plant": "Winterroggen",
+        "city": "K\u00f6ln",
+        "date": "23.06.2023",
+        "sentence": "Heute ist der 23.06.2023. Wir befinden uns in K\u00f6ln. Bl\u00fcht die Winterroggen derzeit?",
+        "response": false,
+        "reasoning": "Die Winterroggen-Bl\u00fcte begann im Jahr 2023 durchschnittlich am 21.05. und endete durchschnittlich am 02.06. Am 23.06.2023 ist die Winterroggen-Bl\u00fcte in K\u00f6ln bereits beendet.",
+        "tokens": {
+            "total_tokens": 1952,
+            "prompt_tokens": 1801,
+            "completion_tokens": 151
+        }
+    },
+    {
+        "id": 22,
+        "plant": "Winterroggen",
+        "city": "D\u00fcsseldorf",
+        "date": "29.04.2021",
+        "sentence": "Stellen wir uns vor, heute sei der 29.04.2021. Wir befinden uns in D\u00fcsseldorf. Bl\u00fcht die Winterroggen aktuell?",
+        "response": false,
+        "reasoning": "Am 29.04.2021 hat der Winterroggen in Deutschland nach den mittleren Beobachtungsterminen noch nicht mit der Bl\u00fcte begonnen. Der Bl\u00fchbeginn liegt ungef\u00e4hr um den 29.05.2021, und das Bl\u00fchende um den 10.06.2021, somit bl\u00fcht der Winterroggen zum genannten Datum noch nicht.",
+        "tokens": {
+            "total_tokens": 1996,
+            "prompt_tokens": 1819,
+            "completion_tokens": 177
+        }
+    },
+    {
+        "id": 23,
+        "plant": "Winterroggen",
+        "city": "K\u00f6ln",
+        "date": "11.04.2021",
+        "sentence": "Stellen wir uns vor, heute sei der 11.04.2021. Wir befinden uns in K\u00f6ln. Bl\u00fcht die Winterroggen aktuell?",
+        "response": false,
+        "reasoning": "Am 11.04.2021 hat der Winterroggen in Deutschland laut den Daten vom Deutschen Wetterdienst durchschnittlich noch nicht begonnen zu bl\u00fchen. Der mittlere Bl\u00fchbeginn liegt rund Ende Mai (Mittel 51 %: 29.05.), und das Bl\u00fchende liegt im Juni. Daher bl\u00fcht Winterroggen zum angegebenen Zeitpunkt in K\u00f6ln nicht.",
+        "tokens": {
+            "total_tokens": 1997,
+            "prompt_tokens": 1819,
+            "completion_tokens": 178
+        }
+    }
+]

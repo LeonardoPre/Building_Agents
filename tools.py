@@ -78,10 +78,10 @@ def get_all_plants() -> list[str]:
     Returns:
         list[str]: A list of plant names without file extensions.
     """
-    plants = [os.path.splitext(filename)[0] for filename in os.listdir('beginn')]
-    return plants
+    plants = [os.path.splitext(filename)[0] for filename in os.listdir('ende')]
+    return " ".join(plants)
 
-#@lru_cache(maxsize=None)
+@lru_cache(maxsize=None)
 def get_begin(plant: str) -> dict:
     """
     Get the Flower instance for a specific plant's begin data.

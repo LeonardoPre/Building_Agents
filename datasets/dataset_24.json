@@ -1,0 +1,170 @@
+[
+    {
+        "plant": "Apfel",
+        "city": "Berlin",
+        "date": "11.04.2021",
+        "sentence": "Heute, am 11.04.2021, befinden wir uns in Berlin. Ist die Apfel gerade am Bl\u00fchen?",
+        "id": 0
+    },
+    {
+        "plant": "Apfel",
+        "city": "M\u00fcnchen",
+        "date": "05.04.2021",
+        "sentence": "Stellen wir uns vor, es ist der 05.04.2021 und wir sind in M\u00fcnchen. Bl\u00fcht die Apfel jetzt?",
+        "id": 1
+    },
+    {
+        "plant": "Apfel",
+        "city": "Leipzig",
+        "date": "12.03.2020",
+        "sentence": "Heute, am 12.03.2020, sind wir in Leipzig. Ist die Apfel gerade in ihrer Bl\u00fctezeit?",
+        "id": 2
+    },
+    {
+        "plant": "Apfel",
+        "city": "Leipzig",
+        "date": "28.02.2019",
+        "sentence": "Angenommen, heute w\u00e4re der 28.02.2019. Wir sind in Leipzig. Ist die Apfel gerade am Bl\u00fchen?",
+        "id": 3
+    },
+    {
+        "plant": "Birke",
+        "city": "Magdeburg",
+        "date": "12.03.2020",
+        "sentence": "Heute ist der 12.03.2020. Wir befinden uns in Magdeburg. Bl\u00fcht die Birke derzeit?",
+        "id": 4
+    },
+    {
+        "plant": "Birke",
+        "city": "D\u00fcsseldorf",
+        "date": "28.02.2019",
+        "sentence": "Angenommen, heute w\u00e4re der 28.02.2019. Wir sind in D\u00fcsseldorf. Ist die Birke gerade am Bl\u00fchen?",
+        "id": 5
+    },
+    {
+        "plant": "Birke",
+        "city": "K\u00f6ln",
+        "date": "30.06.2023",
+        "sentence": "Stellen wir uns vor, es ist der 30.06.2023 und wir sind in K\u00f6ln. Bl\u00fcht die Birke jetzt?",
+        "id": 6
+    },
+    {
+        "plant": "Birke",
+        "city": "M\u00fcnchen",
+        "date": "01.02.2019",
+        "sentence": "Angenommen, es w\u00e4re der 01.02.2019 und wir w\u00e4ren in M\u00fcnchen. Bl\u00fcht die Birke zu diesem Zeitpunkt?",
+        "id": 7
+    },
+    {
+        "plant": "Erle",
+        "city": "Magdeburg",
+        "date": "07.03.2020",
+        "sentence": "Angenommen, der heutige Tag ist der 07.03.2020. Wir sind in Magdeburg. Ist die Erle gerade in Bl\u00fcte?",
+        "id": 8
+    },
+    {
+        "plant": "Erle",
+        "city": "M\u00fcnchen",
+        "date": "24.02.2019",
+        "sentence": "Angenommen, der heutige Tag ist der 24.02.2019. Wir sind in M\u00fcnchen. Ist die Erle gerade in Bl\u00fcte?",
+        "id": 9
+    },
+    {
+        "plant": "Erle",
+        "city": "M\u00fcnchen",
+        "date": "30.06.2023",
+        "sentence": "Heute ist der 30.06.2023. Wir sind in M\u00fcnchen. Ist die Erle gerade in ihrer Bl\u00fctezeit?",
+        "id": 10
+    },
+    {
+        "plant": "Erle",
+        "city": "N\u00fcrnberg",
+        "date": "27.02.2019",
+        "sentence": "Heute ist der 27.02.2019. Wir befinden uns in N\u00fcrnberg. Bl\u00fcht die Erle derzeit?",
+        "id": 11
+    },
+    {
+        "plant": "Hasel",
+        "city": "Stuttgart",
+        "date": "30.06.2023",
+        "sentence": "Heute, am 30.06.2023, befinden wir uns in Stuttgart. Ist die Hasel gerade am Bl\u00fchen?",
+        "id": 12
+    },
+    {
+        "plant": "Hasel",
+        "city": "N\u00fcrnberg",
+        "date": "01.02.2019",
+        "sentence": "Heute ist der 01.02.2019. Wir sind in N\u00fcrnberg. Ist die Hasel gerade in ihrer Bl\u00fctezeit?",
+        "id": 13
+    },
+    {
+        "plant": "Hasel",
+        "city": "Hamburg",
+        "date": "05.04.2021",
+        "sentence": "Angenommen, heute w\u00e4re der 05.04.2021. Wir sind in Hamburg. Ist die Hasel gerade am Bl\u00fchen?",
+        "id": 14
+    },
+    {
+        "plant": "Hasel",
+        "city": "Hamburg",
+        "date": "15.01.2018",
+        "sentence": "Stellen wir uns vor, es ist der 15.01.2018. Wir befinden uns in Hamburg. Bl\u00fcht die Hasel aktuell?",
+        "id": 15
+    },
+    {
+        "plant": "Winterraps",
+        "city": "Stuttgart",
+        "date": "17.05.2022",
+        "sentence": "Angenommen, es w\u00e4re der 17.05.2022 und wir w\u00e4ren in Stuttgart. Bl\u00fcht die Winterraps zu diesem Zeitpunkt?",
+        "id": 16
+    },
+    {
+        "plant": "Winterraps",
+        "city": "Bremen",
+        "date": "04.06.2023",
+        "sentence": "Angenommen, heute w\u00e4re der 04.06.2023. Wir sind in Bremen. Ist die Winterraps gerade am Bl\u00fchen?",
+        "id": 17
+    },
+    {
+        "plant": "Winterraps",
+        "city": "M\u00fcnchen",
+        "date": "14.03.2020",
+        "sentence": "Angenommen, es w\u00e4re der 14.03.2020 und wir w\u00e4ren in M\u00fcnchen. Bl\u00fcht die Winterraps zu diesem Zeitpunkt?",
+        "id": 18
+    },
+    {
+        "plant": "Winterraps",
+        "city": "Leipzig",
+        "date": "28.02.2019",
+        "sentence": "Stellen wir uns vor, es ist der 28.02.2019 und wir sind in Leipzig. Bl\u00fcht die Winterraps jetzt?",
+        "id": 19
+    },
+    {
+        "plant": "Winterroggen",
+        "city": "Bremen",
+        "date": "18.05.2022",
+        "sentence": "Heute ist der 18.05.2022. Wir befinden uns in Bremen. Bl\u00fcht die Winterroggen derzeit?",
+        "id": 20
+    },
+    {
+        "plant": "Winterroggen",
+        "city": "K\u00f6ln",
+        "date": "23.06.2023",
+        "sentence": "Heute ist der 23.06.2023. Wir befinden uns in K\u00f6ln. Bl\u00fcht die Winterroggen derzeit?",
+        "id": 21
+    },
+    {
+        "plant": "Winterroggen",
+        "city": "D\u00fcsseldorf",
+        "date": "29.04.2021",
+        "sentence": "Stellen wir uns vor, heute sei der 29.04.2021. Wir befinden uns in D\u00fcsseldorf. Bl\u00fcht die Winterroggen aktuell?",
+        "id": 22
+    },
+    {
+        "plant": "Winterroggen",
+        "city": "K\u00f6ln",
+        "date": "11.04.2021",
+        "sentence": "Stellen wir uns vor, heute sei der 11.04.2021. Wir befinden uns in K\u00f6ln. Bl\u00fcht die Winterroggen aktuell?",
+        "id": 23
+    }
+]

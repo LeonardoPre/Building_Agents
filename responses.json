@@ -1,0 +1,16 @@
+[
+    {
+        "id": 0,
+        "plant": "erle",
+        "city": "Berlin",
+        "date": "03.11.2020",
+        "sentence": "Gehen wir vom 03.11.2020 in Berlin aus: Hat die erle ihre Bl\u00fctezeit schon begonnen?",
+        "response": false,
+        "reasoning": "Die Bl\u00fctezeit der Erle liegt typischerweise in den Monaten Februar, M\u00e4rz und April. Da der 03. November deutlich au\u00dferhalb dieses Zeitraums liegt, hat die Erle in Berlin zu diesem Zeitpunkt noch nicht mit der Bl\u00fcte begonnen.",
+        "tokens": {
+            "total_tokens": 4091,
+            "prompt_tokens": 3948,
+            "completion_tokens": 143
+        }
+    }
+]
