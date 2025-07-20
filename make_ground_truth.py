@@ -1,6 +1,8 @@
 import json
+import os
 import pandas as pd
 from datetime import datetime, timedelta
+from answer import Answer
 
 def load_dataset(path):
     with open(path, 'r') as file:
@@ -36,46 +38,55 @@ def check_bloom(plant: str, date: str, id: int, deviation: int) -> dict:
     """
     # Load the bloom data for the specified plant
     plant = plant.lower()
-    bloom_start_data = load_bloom_data(f"beginn/{plant}.tsv")
-    bloom_end_data = load_bloom_data(f"ende/{plant}.tsv")
+    tsv_name = f"beginn/{plant}.tsv"
+    if not os.path.exists(tsv_name):
+        return {
+            "plant": plant,
+            "date": date,
+            "start_date": None,
+            "id": id,
+            "is_blooming": Answer.NO_ANSWER
+        }
+
+    bloom_start_data = load_bloom_data(tsv_name)
+
+    #bloom_end_data = load_bloom_data(f"ende/{plant}.tsv")
 
     year = datetime.strptime(date, "%d.%m.%Y").year
     # Filter the data for the given year
     row_start = bloom_start_data[bloom_start_data["Jahr"] == year]
-    row_end = bloom_end_data[bloom_end_data["Jahr"] == year]
+    #row_end = bloom_end_data[bloom_end_data["Jahr"] == year]
 
     start_date = row_start.iloc[:,1].values[0].strip() + f"{year}"
-    end_date = row_end.iloc[:,1].values[0].strip() + f"{year}"
+    #end_date = row_end.iloc[:,1].values[0].strip() + f"{year}"
 
     parsed_start_date = datetime.strptime(start_date, "%d.%m.%Y") - timedelta(days=deviation)
-    parsed_end_date = datetime.strptime(end_date, "%d.%m.%Y") + timedelta(days=deviation)
+    #parsed_end_date = datetime.strptime(end_date, "%d.%m.%Y") + timedelta(days=deviation)
 
     parsed_date = datetime.strptime(date, "%d.%m.%Y")
 
     # Check if the parsed date is within the bloom period
-    if parsed_start_date <= parsed_date <= parsed_end_date:
+    if parsed_start_date <= parsed_date:
         return {
             "plant": plant,
             "date": date,
             "start_date": start_date,
-            "end_date": end_date,
             "id": id,
-            "is_blooming": True
+            "is_blooming": Answer.YES
         }
     else:
         return {
             "plant": plant,
             "date": date,
             "start_date": start_date,
-            "end_date": end_date,
             "id": id,
-            "is_blooming": False
+            "is_blooming": Answer.NO
         }
 
 
 
 if __name__ == "__main__":
-    dataset = load_dataset("datasets/dataset_24.json")
+    dataset = load_dataset("datasets/dataset_850.json")
     results = []
     for deviation in [0, 5, 10]:
         for entry in dataset:
@@ -85,6 +96,6 @@ if __name__ == "__main__":
             bloom_info = check_bloom(plant, date, id, deviation=deviation)
             results.append(bloom_info)
         # Save the results to a JSON file
-        with open(f"ground_truth/ground_truth_24_dev_{deviation}.json", "w") as file:
+        with open(f"ground_truth/ground_truth_850_dev_{deviation}.json", "w") as file:
             json.dump(results, file, indent=4)
     
