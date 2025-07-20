@@ -45,15 +45,15 @@ def create_dataset(num_samples, filename="dataset.json"):
         list: A list of dictionaries containing the dataset.
     """
     
-    plants = get_plants("ende")
+    plants = get_plants("beginn")
     print(plants)
     cities = load_dataset(os.path.join("dataset_creation", "cities.txt"))  
     dates = load_dataset(os.path.join("dataset_creation", "dates.txt"))
     sentences = load_dataset(os.path.join("dataset_creation", "sentences.txt"))
-    #additional_plants = ["Eichel", "Kastanie", "Linde", "Klatschmohn", "Raps"]
+    additional_plants = ["Eichel", "Kastanie", "Linde", "Klatschmohn", "Raps"]
 
-    #plants.extend(additional_plants)
-    plants_samples = [plant.title() for plant in plants for _ in range(4)]
+    plants.extend(additional_plants)
+    plants_samples = [plant.title() for plant in plants for _ in range(50)]
     print(len(plants_samples))
     dataset = []
     for i, plant in enumerate(plants_samples):
@@ -79,7 +79,7 @@ def create_dataset(num_samples, filename="dataset.json"):
 
 if __name__ == "__main__":
     num_samples = 20
-    filename = "datasets/dataset_24.json"
+    filename = "datasets/dataset_850.json"
     create_dataset(num_samples, filename)
 
 

@@ -1,10 +1,15 @@
-Stellen wir uns vor, heute sei der <datum>. Wir befinden uns in <berlin>. Blüht die <pflanze> aktuell?
-Heute ist der <datum>. Wir sind in <berlin>. Ist die <pflanze> gerade in ihrer Blütezeit?
-Angenommen, es wäre der <datum> und wir wären in <berlin>. Blüht die <pflanze> zu diesem Zeitpunkt?
-Heute, am <datum>, befinden wir uns in <berlin>. Ist die <pflanze> gerade am Blühen?
-Stellen wir uns vor, es ist der <datum> und wir sind in <berlin>. Blüht die <pflanze> jetzt?
-Angenommen, der heutige Tag ist der <datum>. Wir sind in <berlin>. Ist die <pflanze> gerade in Blüte?
-Heute ist der <datum>. Wir befinden uns in <berlin>. Blüht die <pflanze> derzeit?
-Angenommen, heute wäre der <datum>. Wir sind in <berlin>. Ist die <pflanze> gerade am Blühen?
-Stellen wir uns vor, es ist der <datum>. Wir befinden uns in <berlin>. Blüht die <pflanze> aktuell?
-Heute, am <datum>, sind wir in <berlin>. Ist die <pflanze> gerade in ihrer Blütezeit?
+Hat die <pflanze> in <stadt> bis zum <datum> schon mit der Blüte begonnen oder ist sie dieses Jahr bereits aufgeblüht?
+Ist die <pflanze> in <stadt> um den <datum> herum schon in die Blüte gegangen oder war sie dieses Jahr schon am Blühen?
+Können wir am <datum> in <stadt> sagen, dass die <pflanze> dieses Jahr schon geblüht hat?
+Hat die <pflanze> in diesem Jahr in <stadt> bis zum <datum> bereits ihre Blütezeit begonnen?
+Blüht die <pflanze> in <stadt> zum <datum> schon, oder hat sie dieses Jahr schon einmal geblüht?
+Gab es in <stadt> bis <datum> schon eine Blüte der <pflanze> in diesem Jahr?
+Hat die <pflanze> in <stadt> am <datum> schon zu blühen begonnen oder war die Blüte schon vorher?
+Ist die <pflanze> in <stadt> zu diesem Zeitpunkt (<datum>) bereits in Blüte oder war sie es schon?
+Haben sich bis <datum> in <stadt> bereits Blüten an der <pflanze> gezeigt?
+Konnte man in <stadt> bis zum <datum> schon Blüten der <pflanze> beobachten?
+Hat die <pflanze> in <stadt> dieses Jahr bis <datum> bereits geblüht oder beginnt die Blüte gerade?
+Können wir sagen, dass die Blüte der <pflanze> in <stadt> bis <datum> bereits eingesetzt hat?
+Ist in <stadt> um den <datum> herum schon Blütezeit für die <pflanze> oder war sie dieses Jahr schon vorbei?
+Blühte die <pflanze> in <stadt> in diesem Jahr schon vor dem <datum> oder beginnt sie gerade zu blühen?
+Hat sich die <pflanze> in <stadt> zum <datum> schon geöffnet oder gab es dieses Jahr schon eine Blühphase?
