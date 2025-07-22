@@ -32,13 +32,13 @@ class Flower:
         with open(f"beginn_info/{name}.txt", "r") as file:
             self.begin_info = file.read().strip()
         
-        with open(f"ende/{name}.tsv", "r") as file:
-            self.ende_data = pandas.read_csv(file, sep="\t", index_col=None)
-            self.ende_data.columns = self.ende_data.columns.str.strip()
-            self.ende_data.reset_index(drop=True, inplace=True)
+        # with open(f"ende/{name}.tsv", "r") as file:
+        #     self.ende_data = pandas.read_csv(file, sep="\t", index_col=None)
+        #     self.ende_data.columns = self.ende_data.columns.str.strip()
+        #     self.ende_data.reset_index(drop=True, inplace=True)
         
-        with open(f"ende_info/{name}.txt", "r") as file:
-            self.ende_info = file.read().strip()
+        # with open(f"ende_info/{name}.txt", "r") as file:
+        #     self.ende_info = file.read().strip()
     
     def __repr__(self):
         return f"Flower(name={self.name})"
@@ -56,18 +56,18 @@ class Flower:
             "info": self.begin_info
         }
     
-    def get_ende_dict(self) -> dict:
-        """
-        Convert the Flower instance to a dictionary representation for end data.
+    # def get_ende_dict(self) -> dict:
+    #     """
+    #     Convert the Flower instance to a dictionary representation for end data.
 
-        Returns:
-            dict: A dictionary containing the name, data, and info of the plant.
-        """
-        return {
-            "name": self.name,
-            "data": self.ende_data,
-            "info": self.ende_info
-        }
+    #     Returns:
+    #         dict: A dictionary containing the name, data, and info of the plant.
+    #     """
+    #     return {
+    #         "name": self.name,
+    #         "data": self.ende_data,
+    #         "info": self.ende_info
+    #     }
 
 
 
