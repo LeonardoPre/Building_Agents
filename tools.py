@@ -70,7 +70,7 @@ class Flower:
         }
 
 
-#@lru_cache(maxsize=None)
+
 def get_all_plants() -> list[str]:
     """
     Get all plant names from the 'beginn' directory.
@@ -78,7 +78,7 @@ def get_all_plants() -> list[str]:
     Returns:
         list[str]: A list of plant names without file extensions.
     """
-    plants = [os.path.splitext(filename)[0] for filename in os.listdir('ende')]
+    plants = [os.path.splitext(filename)[0] for filename in os.listdir('beginn') if filename.endswith('.tsv')]
     return " ".join(plants)
 
 @lru_cache(maxsize=None)
@@ -92,6 +92,7 @@ def get_begin(plant: str) -> dict:
     Returns:
         dict[str, any]: A dictionary containing the plant's name, flower data, and information.
     """
+    plant = plant.lower()
     if plant not in get_all_plants():
         raise ValueError(f"Plant '{plant}' not found in 'beginn' directory.")
     return Flower(plant).get_begin_dict()
@@ -117,64 +118,47 @@ def get_end(plant: str) -> dict:
 
 def get_bloom_data(
     plant: str,
-    year: int,
-    type: Annotated[Bloom, "StrEnum that can be either 'beginn' or 'ende'"]
-) -> dict:
+    year: int) -> dict:
     """
     Get bloom data for a specific plant for a given year. 
-    The type of bloom data can be either BEGINN or ENDE.
-    These stand either for beginning or end of bloom.
+    The data gives the bloom start date for the specified year of a specific plant
 
     Args:
         plant (str): The name of the plant.
         year (int): The year for which to retrieve bloom data.
-        type (Bloom): The type of bloom data to retrieve (BEGINN or ENDE).
 
     Returns:
         dict: A dictionary containing bloom data and additional information.
-
-    Raises:
-        ValueError: If the bloom type is invalid.
     """
-    print(f"Tool invoked with plant={plant}, year={year}, type={type}")
-
-    if type not in Bloom:
-        raise ValueError(f"Invalid bloom type: {type}. Must be one of {list(Bloom)}.")
     
-    if type == Bloom.BEGINN:
-        df = get_begin(plant)["data"]
-        info = get_begin(plant)["info"]
-    
-    elif type == Bloom.ENDE:
-        df = get_end(plant)["data"]
-        info = get_end(plant)["info"]
+    df = get_begin(plant)["data"]
+    info = get_begin(plant)["info"]
     
     bloom_data = df[df["Jahr"] == year]
     
     if not bloom_data.empty:
         return {"data": bloom_data.to_dict(), "info": info}
-    
     else:
         return {"data": None, "info": "No data found for the given bloom number."}
 
 
-def get_bloom_data_whole(plant: Annotated[str, "The plant the current agent is responsible for"], year: int) -> dict:
-    """
-    Get bloom data for the Erle plant for a given year.
+# def get_bloom_data_whole(plant: Annotated[str, "The plant the current agent is responsible for"], year: int) -> dict:
+#     """
+#     Get bloom data for the Erle plant for a given year.
 
-    Args:
-        year (int): The year for which to retrieve bloom data.
+#     Args:
+#         year (int): The year for which to retrieve bloom data.
 
-    Returns:
-        dict: A dictionary containing bloom data and additional information.
-    """
-    begin_data = get_bloom_data(plant.lower(), year, Bloom.BEGINN)
-    ende_data = get_bloom_data(plant.lower(), year, Bloom.ENDE)
-    #print(begin_data)
-    #print(ende_data["data"])
-    return {
-        "begin_data": begin_data["data"],
-        "ende_data": ende_data["data"],
-        "info_beginn": begin_data["info"],
-        "info_ende": ende_data["info"]
-    }
+#     Returns:
+#         dict: A dictionary containing bloom data and additional information.
+#     """
+#     begin_data = get_bloom_data(plant.lower(), year, Bloom.BEGINN)
+#     ende_data = get_bloom_data(plant.lower(), year, Bloom.ENDE)
+#     #print(begin_data)
+#     #print(ende_data["data"])
+#     return {
+#         "begin_data": begin_data["data"],
+#         "ende_data": ende_data["data"],
+#         "info_beginn": begin_data["info"],
+#         "info_ende": ende_data["info"]
+#     }

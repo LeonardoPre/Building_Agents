@@ -37,10 +37,10 @@ def rename(newname):
     return decorator
 
 def make_specialist(plant, llm):
-    blooming = functools.partial(tools.get_bloom_data_whole, plant=plant)
+    blooming = functools.partial(tools.get_bloom_data, plant=plant)
 
     @rename(f"get_bloom_data_{plant}")
-    def get_bloom_data(year: int):
+    def get_bloom_data(year: int) -> dict:
         """
         Get bloom data for the specified plant and year.
 
@@ -57,8 +57,8 @@ def make_specialist(plant, llm):
         tools=[get_bloom_data],
         prompt=(
             f'Du bist ein Assistent, der Informationen über die Blütezeit von der Pflanze {plant} bereitstellt. Nutze get_bloom_data_whole mit {plant} als ersten parameter, um Informationen über die Blütezeit von {plant} zu erhalten.'
-            'Antworte auf die Fragen in folgendme Format: Antworte in JSON und folge dem Schema: { "type": "object", "properties": { "response": { "type": "boolean" }, "reasoning": { "type": "string" } }, "required": [ "response", "reasoning" ] }'
-            'response soll auf true gesetzt werden, wenn die Pflanze blüht und false, wenn sie nicht blüht.'
+            'Antworte in JSON und folge dem Schema: {"type": "object","properties": {"response": {"type": "string","enum": ["yes", "no", "no answer"]},reasoning": {"type": "string"}},"required": ["response", "reasoning"]}'
+            f'response soll auf "yes" gesetzt werden, wenn die Pflanze blüht und "no", wenn sie nicht blüht. Falls die Pflanze nicht {plant} ist, setze response auf "no answer".'
         ),
         name=f"{plant}_agent",
     )

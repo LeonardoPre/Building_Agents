@@ -62,7 +62,7 @@ def create_dataset(num_samples, filename="dataset.json"):
         sentence = random.choice(sentences).strip()
 
         sentence= sentence.replace("<pflanze>", plant.title())
-        sentence = sentence.replace("<berlin>", city)
+        sentence = sentence.replace("<stadt>", city)
         sentence = sentence.replace("<datum>", date)
         dataset.append({
             "plant": plant,

@@ -5,12 +5,12 @@
         "city": "Berlin",
         "date": "11.04.2021",
         "sentence": "Heute, am 11.04.2021, befinden wir uns in Berlin. Ist die Apfel gerade am Bl\u00fchen?",
-        "response": true,
-        "reasoning": "In Berlin, Apfelb\u00e4ume (Malus domestica) bl\u00fchen typischerweise im April. Mitte April, einschlie\u00dflich dem 11.04.2021, ist die Zeit der Apfelbl\u00fcte in der Regel erreicht oder gerade im Gange, da die Temperaturen und Tageslichtverh\u00e4ltnisse im Fr\u00fchling dies f\u00f6rdern.",
+        "response": "yes",
+        "reasoning": "In Berlin, apple trees typically begin to blossom in mid-April. Since the date is 11.04.2021, it is the start of the usual blooming period for apple trees in this region.",
         "tokens": {
-            "completion_tokens": 87,
-            "prompt_tokens": 93,
-            "total_tokens": 180
+            "completion_tokens": 62,
+            "prompt_tokens": 115,
+            "total_tokens": 177
         }
     },
     {
@@ -19,12 +19,12 @@
         "city": "M\u00fcnchen",
         "date": "05.04.2021",
         "sentence": "Stellen wir uns vor, es ist der 05.04.2021 und wir sind in M\u00fcnchen. Bl\u00fcht die Apfel jetzt?",
-        "response": true,
-        "reasoning": "Am 05.04.2021 in M\u00fcnchen befindet sich der Apfelbaum typischerweise in der Bl\u00fctephase. In Mitteleuropa bl\u00fchen Apfelb\u00e4ume normalerweise von Ende M\u00e4rz bis Mitte April, abh\u00e4ngig von den Witterungsbedingungen im Fr\u00fchjahr. Da M\u00fcnchen ein gem\u00e4\u00dfigtes Klima hat und Anfang April meist milde Temperaturen herrschen, ist es sehr wahrscheinlich, dass die Apfelb\u00e4ume zu diesem Zeitpunkt bereits Bl\u00fcten zeigen.",
+        "response": "yes",
+        "reasoning": "Am 05.04.2021 ist es Anfang April in M\u00fcnchen, Bayern. Zu dieser Zeit beginnen Apfelb\u00e4ume typischerweise zu bl\u00fchen, da das Klima milder wird und die Fr\u00fchjahrsbl\u00fcte einsetzt. Die Apfelbl\u00fcte findet normalerweise zwischen Ende April und Anfang Mai statt, kann aber in milden Wintern bzw. warmen Fr\u00fchlingen auch bereits Anfang April einsetzen.",
         "tokens": {
-            "completion_tokens": 111,
-            "prompt_tokens": 96,
-            "total_tokens": 207
+            "completion_tokens": 103,
+            "prompt_tokens": 118,
+            "total_tokens": 221
         }
     },
     {
@@ -33,12 +33,12 @@
         "city": "Leipzig",
         "date": "12.03.2020",
         "sentence": "Heute, am 12.03.2020, sind wir in Leipzig. Ist die Apfel gerade in ihrer Bl\u00fctezeit?",
-        "response": true,
-        "reasoning": "In Leipzig, die Apfelbl\u00fcte beginnt typischerweise Mitte bis Ende M\u00e4rz und dauert bis Anfang April. Am 12.03.2020 befinden wir uns am Anfang dieses Zeitraums, sodass die Apfelb\u00e4ume gerade beginnen zu bl\u00fchen.",
+        "response": "no",
+        "reasoning": "Die Apfelbl\u00fcte in Leipzig findet typischerweise im April statt. Am 12. M\u00e4rz 2020 ist es f\u00fcr die Apfelb\u00e4ume noch zu fr\u00fch, um zu bl\u00fchen, da die Temperaturen im M\u00e4rz meist noch nicht ausreichend warm sind und die Bl\u00fcte noch nicht begonnen hat.",
         "tokens": {
-            "completion_tokens": 72,
-            "prompt_tokens": 93,
-            "total_tokens": 165
+            "completion_tokens": 81,
+            "prompt_tokens": 115,
+            "total_tokens": 196
         }
     },
     {
@@ -47,12 +47,12 @@
         "city": "Leipzig",
         "date": "28.02.2019",
         "sentence": "Angenommen, heute w\u00e4re der 28.02.2019. Wir sind in Leipzig. Ist die Apfel gerade am Bl\u00fchen?",
-        "response": false,
-        "reasoning": "Am 28. Februar 2019 ist es in Leipzig in der Regel noch zu fr\u00fch f\u00fcr Apfelb\u00e4ume zu bl\u00fchen. Die Apfelbl\u00fcte findet normalerweise im April statt, wenn die Temperaturen steigen und die Frostgefahr zur\u00fcckgeht. Ende Februar befinden sich die Apfelb\u00e4ume meist noch in der Winterruhe oder beginnen gerade erst mit dem Austrieb der Knospen.",
+        "response": "no",
+        "reasoning": "Am 28. Februar 2019 in Leipzig ist es noch zu fr\u00fch f\u00fcr die Apfelbl\u00fcte. \u00c4pfel beginnen in der Regel erst im April zu bl\u00fchen, da die Bl\u00fctezeit von der Temperatur abh\u00e4ngt und der Februar in Mitteleuropa meist noch zu kalt ist.",
         "tokens": {
-            "completion_tokens": 98,
-            "prompt_tokens": 96,
-            "total_tokens": 194
+            "completion_tokens": 80,
+            "prompt_tokens": 118,
+            "total_tokens": 198
         }
     },
     {
@@ -61,12 +61,12 @@
         "city": "Magdeburg",
         "date": "12.03.2020",
         "sentence": "Heute ist der 12.03.2020. Wir befinden uns in Magdeburg. Bl\u00fcht die Birke derzeit?",
-        "response": true,
-        "reasoning": "Am 12. M\u00e4rz befinden wir uns im fr\u00fchen Fr\u00fchling in Magdeburg. Birken beginnen typischerweise im M\u00e4rz mit dem Bl\u00fchen, da sie zu den Fr\u00fchbl\u00fchern geh\u00f6ren. Die Bl\u00fctezeit der Birke erstreckt sich etwa von M\u00e4rz bis April, daher ist es sehr wahrscheinlich, dass die Birke zu diesem Zeitpunkt bereits bl\u00fcht.",
+        "response": "yes",
+        "reasoning": "Am 12. M\u00e4rz befinden sich Birken in Magdeburg in der Regel bereits in der Bl\u00fctezeit. Birken bl\u00fchen meist von Ende Februar bis April, wobei das Wetter und der Standort diesen Zeitraum leicht verschieben k\u00f6nnen. Da Magdeburg ein gem\u00e4\u00dfigtes Klima hat, ist Anfang M\u00e4rz eine typische Zeit f\u00fcr die Birkenbl\u00fcte.",
         "tokens": {
-            "completion_tokens": 95,
-            "prompt_tokens": 93,
-            "total_tokens": 188
+            "completion_tokens": 92,
+            "prompt_tokens": 115,
+            "total_tokens": 207
         }
     },
     {
@@ -75,12 +75,12 @@
         "city": "D\u00fcsseldorf",
         "date": "28.02.2019",
         "sentence": "Angenommen, heute w\u00e4re der 28.02.2019. Wir sind in D\u00fcsseldorf. Ist die Birke gerade am Bl\u00fchen?",
-        "response": false,
-        "reasoning": "Am 28. Februar 2019 ist es in D\u00fcsseldorf in der Regel noch zu fr\u00fch f\u00fcr die Birkenbl\u00fcte. Birken bl\u00fchen typischerweise im Fr\u00fchling, meistens ab Mitte M\u00e4rz bis April, je nach Witterung. Ende Februar sind die Temperaturen meist noch zu niedrig, und die Birken stehen meist noch ohne Bl\u00fcten.",
+        "response": "no",
+        "reasoning": "Am 28.02.2019 ist es in D\u00fcsseldorf in der Regel noch zu fr\u00fch f\u00fcr die Birke, um zu bl\u00fchen. Die Birke beginnt meist erst ab Mitte bis Ende M\u00e4rz zu bl\u00fchen, abh\u00e4ngig von den Wetterbedingungen. Ende Februar ist die Bl\u00fctezeit der Birke normalerweise noch nicht erreicht.",
         "tokens": {
-            "completion_tokens": 90,
-            "prompt_tokens": 96,
-            "total_tokens": 186
+            "completion_tokens": 86,
+            "prompt_tokens": 118,
+            "total_tokens": 204
         }
     },
     {
@@ -89,12 +89,12 @@
         "city": "K\u00f6ln",
         "date": "30.06.2023",
         "sentence": "Stellen wir uns vor, es ist der 30.06.2023 und wir sind in K\u00f6ln. Bl\u00fcht die Birke jetzt?",
-        "response": false,
-        "reasoning": "Am 30.06.2023 in K\u00f6ln ist die Birke typischerweise nicht mehr in der Bl\u00fcte. Die Birke bl\u00fcht normalerweise im Fr\u00fchjahr, meist von M\u00e4rz bis April, je nach Wetterlage und Standort. Ende Juni sind die Birkenpollen bereits vorbei, und die B\u00e4ume haben sich in die Blattwachstumsphase begeben.",
+        "response": "no",
+        "reasoning": "Die Birke bl\u00fcht typischerweise im Fr\u00fchling, meist von M\u00e4rz bis Mai. Am 30. Juni in K\u00f6ln sind die Birkenbl\u00fcten bereits verbl\u00fcht, da die Hauptbl\u00fctezeit vorbei ist.",
         "tokens": {
-            "completion_tokens": 93,
-            "prompt_tokens": 96,
-            "total_tokens": 189
+            "completion_tokens": 66,
+            "prompt_tokens": 118,
+            "total_tokens": 184
         }
     },
     {
@@ -103,12 +103,12 @@
         "city": "M\u00fcnchen",
         "date": "01.02.2019",
         "sentence": "Angenommen, es w\u00e4re der 01.02.2019 und wir w\u00e4ren in M\u00fcnchen. Bl\u00fcht die Birke zu diesem Zeitpunkt?",
-        "response": false,
-        "reasoning": "Am 01.02.2019 ist in M\u00fcnchen normalerweise noch Winter. Die Birke beginnt typischerweise erst ab etwa M\u00e4rz mit der Bl\u00fcte, wenn Temperaturen steigen und sich der Fr\u00fchling ank\u00fcndigt. Im Februar ist die Birke daher noch nicht in Bl\u00fcte.",
+        "response": "no",
+        "reasoning": "Am 01.02.2019 in M\u00fcnchen ist es noch Winter. Birken beginnen in der Regel im Fr\u00fchling zu bl\u00fchen, meist ab M\u00e4rz oder April, wenn die Temperaturen steigen und die Tage l\u00e4nger werden. Daher ist eine Bl\u00fcte der Birke Anfang Februar sehr unwahrscheinlich.",
         "tokens": {
-            "completion_tokens": 75,
-            "prompt_tokens": 96,
-            "total_tokens": 171
+            "completion_tokens": 80,
+            "prompt_tokens": 118,
+            "total_tokens": 198
         }
     },
     {
@@ -117,12 +117,12 @@
         "city": "Magdeburg",
         "date": "07.03.2020",
         "sentence": "Angenommen, der heutige Tag ist der 07.03.2020. Wir sind in Magdeburg. Ist die Erle gerade in Bl\u00fcte?",
-        "response": false,
-        "reasoning": "Die Erle (Alnus) bl\u00fcht in der Regel von Ende Februar bis Anfang April. Am 07.03.2020 in Magdeburg befinden wir uns zwar im Bl\u00fctezeitraum, allerdings beginnt die Erle meist erst im sp\u00e4teren M\u00e4rz richtig zu bl\u00fchen. Anfang M\u00e4rz sind erste Bl\u00fctenans\u00e4tze m\u00f6glich, eine volle Bl\u00fcte ist jedoch eher Ende M\u00e4rz bis Anfang April zu erwarten. Daher ist die Erle zum genannten Datum wahrscheinlich noch nicht in voller Bl\u00fcte.",
+        "response": "yes",
+        "reasoning": "In Magdeburg, the common alder (Erle) typically starts flowering from late February to early March. Since the current date is the 07.03.2020, it is within the usual flowering period for alder in this region.",
         "tokens": {
-            "completion_tokens": 119,
-            "prompt_tokens": 100,
-            "total_tokens": 219
+            "completion_tokens": 69,
+            "prompt_tokens": 122,
+            "total_tokens": 191
         }
     },
     {
@@ -131,12 +131,12 @@
         "city": "M\u00fcnchen",
         "date": "24.02.2019",
         "sentence": "Angenommen, der heutige Tag ist der 24.02.2019. Wir sind in M\u00fcnchen. Ist die Erle gerade in Bl\u00fcte?",
-        "response": false,
-        "reasoning": "Die Erle bl\u00fcht typischerweise zwischen Februar und M\u00e4rz. Am 24.02. kann es zwar je nach Wetterlage bereits einzelne Bl\u00fctenst\u00e4nde geben, aber in M\u00fcnchen ist die Erle um diese Zeit meist noch nicht voll in Bl\u00fcte, da die Temperaturen oft noch zu niedrig sind. Vollst\u00e4ndige Bl\u00fcte tritt meist etwas sp\u00e4ter im Fr\u00fchjahr auf.",
+        "response": "yes",
+        "reasoning": "Die Erle bl\u00fcht in Mitteleuropa typischerweise von Februar bis M\u00e4rz. Da heute der 24.02.2019 ist und wir uns in M\u00fcnchen befinden, ist es sehr wahrscheinlich, dass die Erle zu diesem Zeitpunkt gerade in Bl\u00fcte steht.",
         "tokens": {
-            "completion_tokens": 93,
-            "prompt_tokens": 98,
-            "total_tokens": 191
+            "completion_tokens": 74,
+            "prompt_tokens": 120,
+            "total_tokens": 194
         }
     },
     {
@@ -145,12 +145,12 @@
         "city": "M\u00fcnchen",
         "date": "30.06.2023",
         "sentence": "Heute ist der 30.06.2023. Wir sind in M\u00fcnchen. Ist die Erle gerade in ihrer Bl\u00fctezeit?",
-        "response": false,
-        "reasoning": "Die Erle (Alnus) bl\u00fcht im Fr\u00fchjahr, typischerweise von M\u00e4rz bis Mai. Am 30. Juni in M\u00fcnchen liegt die Bl\u00fctezeit der Erle bereits hinter uns, daher befindet sie sich nicht mehr in ihrer Bl\u00fctezeit.",
+        "response": "no",
+        "reasoning": "Die Erle (Alnus) bl\u00fcht in der Regel von Februar bis April. Da heute der 30.06.2023 ist, befindet sich die Erle in M\u00fcnchen au\u00dferhalb ihrer Bl\u00fctezeit.",
         "tokens": {
-            "completion_tokens": 71,
-            "prompt_tokens": 93,
-            "total_tokens": 164
+            "completion_tokens": 59,
+            "prompt_tokens": 115,
+            "total_tokens": 174
         }
     },
     {
@@ -159,12 +159,12 @@
         "city": "N\u00fcrnberg",
         "date": "27.02.2019",
         "sentence": "Heute ist der 27.02.2019. Wir befinden uns in N\u00fcrnberg. Bl\u00fcht die Erle derzeit?",
-        "response": true,
-        "reasoning": "In N\u00fcrnberg, Erlen (Alnus) beginnen typischerweise Ende Februar bis Anfang M\u00e4rz zu bl\u00fchen, besonders bei milden Temperaturen. Am 27.02.2019 sind die Bedingungen im Sp\u00e4twinter oft bereits mild genug, sodass die Erlen gerade mit dem Bl\u00fchen begonnen haben oder kurz davor stehen. Erlen geh\u00f6ren zu den fr\u00fchbl\u00fchenden B\u00e4umen im Jahr, deren Bl\u00fctezeit oft im sp\u00e4ten Winter liegt.",
+        "response": "no",
+        "reasoning": "Am 27. Februar 2019 in N\u00fcrnberg ist es in der Regel noch zu fr\u00fch f\u00fcr die Erle zu bl\u00fchen. Die Erle beginnt normalerweise erst im zeitigen Fr\u00fchling, oft im M\u00e4rz oder April, mit der Bl\u00fcte. Ende Februar sind die Temperaturen meist noch zu niedrig, um eine Erlenbl\u00fcte zu erm\u00f6glichen.",
         "tokens": {
-            "completion_tokens": 110,
-            "prompt_tokens": 91,
-            "total_tokens": 201
+            "completion_tokens": 89,
+            "prompt_tokens": 113,
+            "total_tokens": 202
         }
     },
     {
@@ -173,12 +173,12 @@
         "city": "Stuttgart",
         "date": "30.06.2023",
         "sentence": "Heute, am 30.06.2023, befinden wir uns in Stuttgart. Ist die Hasel gerade am Bl\u00fchen?",
-        "response": false,
-        "reasoning": "Die Hasel bl\u00fcht typischerweise im sp\u00e4ten Winter bis fr\u00fchen Fr\u00fchling, meist von Januar bis M\u00e4rz. Ende Juni, speziell am 30.06.2023, ist die Bl\u00fctezeit der Hasel in Stuttgart bereits lange vorbei.",
+        "response": "no",
+        "reasoning": "Die Hasel (Corylus avellana) bl\u00fcht typischerweise im sp\u00e4ten Winter bis fr\u00fchen Fr\u00fchling, meist von Februar bis M\u00e4rz. Am 30.06.2023 in Stuttgart ist die Bl\u00fctezeit der Hasel bereits vorbei.",
         "tokens": {
-            "completion_tokens": 70,
-            "prompt_tokens": 93,
-            "total_tokens": 163
+            "completion_tokens": 73,
+            "prompt_tokens": 115,
+            "total_tokens": 188
         }
     },
     {
@@ -187,12 +187,12 @@
         "city": "N\u00fcrnberg",
         "date": "01.02.2019",
         "sentence": "Heute ist der 01.02.2019. Wir sind in N\u00fcrnberg. Ist die Hasel gerade in ihrer Bl\u00fctezeit?",
-        "response": true,
-        "reasoning": "Die Hasel (Corylus avellana) beginnt in Mitteleuropa typischerweise Ende Januar bis Anfang Februar mit der Bl\u00fctezeit, je nach Witterung. Am 01.02.2019 in N\u00fcrnberg ist die Hasel daher sehr wahrscheinlich gerade in ihrer Bl\u00fctezeit, da das milde Klima zu dieser Zeit meistens bereits die Bl\u00fcte f\u00f6rdert.",
+        "response": "yes",
+        "reasoning": "Die Hasel (Corylus avellana) bl\u00fcht in Mitteleuropa typischerweise von Ende Januar bis M\u00e4rz. Da heute der 01.02.2019 ist und wir uns in N\u00fcrnberg befinden, liegt dieses Datum innerhalb der \u00fcblichen Bl\u00fctezeit der Hasel.",
         "tokens": {
-            "completion_tokens": 95,
-            "prompt_tokens": 93,
-            "total_tokens": 188
+            "completion_tokens": 79,
+            "prompt_tokens": 115,
+            "total_tokens": 194
         }
     },
     {
@@ -201,12 +201,12 @@
         "city": "Hamburg",
         "date": "05.04.2021",
         "sentence": "Angenommen, heute w\u00e4re der 05.04.2021. Wir sind in Hamburg. Ist die Hasel gerade am Bl\u00fchen?",
-        "response": true,
-        "reasoning": "Am 05.04.2021 befindet sich die Hasel in Hamburg in der Regel in der Bl\u00fctezeit. Die Haselbl\u00fcte beginnt meist zwischen Ende Februar und Anfang April und kann je nach Wetterlage bis in den April andauern. Im milden Klima Hamburgs ist es daher sehr wahrscheinlich, dass die Hasel am 5. April gerade am Bl\u00fchen ist.",
+        "response": "yes",
+        "reasoning": "In Hamburg, the hazel (Hasel) typically begins to bloom between late February and early April. Given the date is 05.04.2021, it is within the usual blooming period for hazel trees in this region.",
         "tokens": {
-            "completion_tokens": 98,
-            "prompt_tokens": 96,
-            "total_tokens": 194
+            "completion_tokens": 68,
+            "prompt_tokens": 118,
+            "total_tokens": 186
         }
     },
     {
@@ -215,12 +215,12 @@
         "city": "Hamburg",
         "date": "15.01.2018",
         "sentence": "Stellen wir uns vor, es ist der 15.01.2018. Wir befinden uns in Hamburg. Bl\u00fcht die Hasel aktuell?",
-        "response": true,
-        "reasoning": "Am 15.01.2018 befindet sich die Hasel in Hamburg typischerweise in der Bl\u00fctezeit. Die Hasel (Corylus avellana) bl\u00fcht oft bereits im sp\u00e4ten Winter, gew\u00f6hnlich von Januar bis M\u00e4rz. Die m\u00e4nnlichen K\u00e4tzchen sind oft ab Januar sichtbar und bl\u00fchen, um Best\u00e4uber f\u00fcr die Fr\u00fchsommerfruchtbildung bereitzustellen. Daher ist es sehr wahrscheinlich, dass die Hasel Anfang bis Mitte Januar in Hamburg bl\u00fcht.",
+        "response": "yes",
+        "reasoning": "Die Hasel (Corylus avellana) bl\u00fcht in Deutschland typischerweise von Januar bis M\u00e4rz. Am 15.01.2018 in Hamburg befinden wir uns mitten in der Bl\u00fctezeit der Hasel. Daher ist es sehr wahrscheinlich, dass die Hasel zu diesem Zeitpunkt bl\u00fcht.",
         "tokens": {
-            "completion_tokens": 124,
-            "prompt_tokens": 97,
-            "total_tokens": 221
+            "completion_tokens": 84,
+            "prompt_tokens": 119,
+            "total_tokens": 203
         }
     },
     {
@@ -229,12 +229,12 @@
         "city": "Stuttgart",
         "date": "17.05.2022",
         "sentence": "Angenommen, es w\u00e4re der 17.05.2022 und wir w\u00e4ren in Stuttgart. Bl\u00fcht die Winterraps zu diesem Zeitpunkt?",
-        "response": false,
-        "reasoning": "Winterraps (Winterraps) wird im Herbst ausges\u00e4t und bl\u00fcht in der Regel im Fr\u00fchjahr, meist zwischen April und Mai. Am 17.05.2022 in Stuttgart ist die Hauptbl\u00fctephase normalerweise bereits vorbei, da die Bl\u00fcte gew\u00f6hnlich Ende April bis Anfang Mai stattfindet. Daher ist es wahrscheinlich, dass der Winterraps zu diesem Zeitpunkt nicht mehr bl\u00fcht oder die Bl\u00fcte weitgehend abgeschlossen ist.",
+        "response": "no",
+        "reasoning": "Winterraps (Winterraps) wird in der Regel im fr\u00fchen Fr\u00fchling bl\u00fchen, meist zwischen M\u00e4rz und April. Der 17. Mai liegt bereits nach der Bl\u00fctezeit, da Winterraps in der Regel bereits vor der Ernte gebl\u00fcht hat. In Stuttgart, mit gem\u00e4\u00dfigtem Klima, ist die Rapsernte typischerweise im Mai abgeschlossen, daher bl\u00fcht Winterraps am 17.05.2022 in der Regel nicht mehr.",
         "tokens": {
-            "completion_tokens": 110,
-            "prompt_tokens": 97,
-            "total_tokens": 207
+            "completion_tokens": 118,
+            "prompt_tokens": 119,
+            "total_tokens": 237
         }
     },
     {
@@ -243,12 +243,12 @@
         "city": "Bremen",
         "date": "04.06.2023",
         "sentence": "Angenommen, heute w\u00e4re der 04.06.2023. Wir sind in Bremen. Ist die Winterraps gerade am Bl\u00fchen?",
-        "response": true,
-        "reasoning": "Winterraps in Bremen bl\u00fcht typischerweise von Ende Mai bis Mitte Juni. Am 04.06.2023 befindet sich die Pflanze somit in der Bl\u00fctephase.",
+        "response": "yes",
+        "reasoning": "Winterraps (Winterraps) in Bremen typically bl\u00fcht zwischen Mitte Mai und Anfang Juni. Am 04.06.2023 befindet sich die Kultur daher meist in der Bl\u00fctephase.",
         "tokens": {
-            "completion_tokens": 57,
-            "prompt_tokens": 97,
-            "total_tokens": 154
+            "completion_tokens": 61,
+            "prompt_tokens": 119,
+            "total_tokens": 180
         }
     },
     {
@@ -257,12 +257,12 @@
         "city": "M\u00fcnchen",
         "date": "14.03.2020",
         "sentence": "Angenommen, es w\u00e4re der 14.03.2020 und wir w\u00e4ren in M\u00fcnchen. Bl\u00fcht die Winterraps zu diesem Zeitpunkt?",
-        "response": false,
-        "reasoning": "Am 14.03.2020 in M\u00fcnchen befindet sich Winterraps in der Regel noch nicht in voller Bl\u00fcte. Winterraps wird meist im August bis September ges\u00e4t, beginnt im Herbst mit der Entwicklung und \u00fcberdauert den Winter als Pflanze. Die Bl\u00fctezeit von Winterraps liegt typischerweise zwischen April und Mai. Mitte M\u00e4rz sind die Pflanzen meistens noch in der Entwicklungsphase vor der Bl\u00fcte.",
+        "response": "no",
+        "reasoning": "Am 14.03.2020 befindet sich Winterraps in M\u00fcnchen in der Regel kurz vor der Bl\u00fctephase oder am Anfang des Austriebs, bl\u00fcht aber normalerweise noch nicht. Winterraps wird typischerweise von Mitte bis Ende M\u00e4rz in s\u00fcddeutschen Regionen wie M\u00fcnchen zu bl\u00fchen beginnen, abh\u00e4ngig von den Witterungsbedingungen. Da Mitte M\u00e4rz oft noch kalt ist und die Pflanzen die Winterruhe gerade \u00fcberwunden haben, ist eine volle Bl\u00fcte zu diesem Zeitpunkt eher unwahrscheinlich.",
         "tokens": {
-            "completion_tokens": 106,
-            "prompt_tokens": 97,
-            "total_tokens": 203
+            "completion_tokens": 123,
+            "prompt_tokens": 119,
+            "total_tokens": 242
         }
     },
     {
@@ -271,12 +271,12 @@
         "city": "Leipzig",
         "date": "28.02.2019",
         "sentence": "Stellen wir uns vor, es ist der 28.02.2019 und wir sind in Leipzig. Bl\u00fcht die Winterraps jetzt?",
-        "response": false,
-        "reasoning": "Am 28. Februar 2019 in Leipzig bl\u00fcht Winterraps in der Regel noch nicht. Winterraps wird meist im Herbst ges\u00e4t und \u00fcbersteht den Winter als Pflanze, beginnt aber erst im M\u00e4rz mit der Bl\u00fcte, wenn die Temperaturen steigen und die Tagesl\u00e4nge zunimmt. Ende Februar ist es meist noch zu kalt, sodass die Bl\u00fctezeit normalerweise erst kurz darauf, im M\u00e4rz, beginnt.",
+        "response": "no",
+        "reasoning": "Am 28.02.2019 in Leipzig befindet sich Winterraps normalerweise noch nicht in voller Bl\u00fcte. Winterraps wird meist Ende M\u00e4rz bis Anfang April bl\u00fchf\u00e4hig, da er erst nach der \u00dcberwinterung und bei ausreichend steigenden Temperaturen zu bl\u00fchen beginnt. Ende Februar sind die Temperaturen in Leipzig meist noch zu niedrig, um eine Bl\u00fcte zu erwarten.",
         "tokens": {
-            "completion_tokens": 105,
-            "prompt_tokens": 97,
-            "total_tokens": 202
+            "completion_tokens": 96,
+            "prompt_tokens": 119,
+            "total_tokens": 215
         }
     },
     {
@@ -285,12 +285,12 @@
         "city": "Bremen",
         "date": "18.05.2022",
         "sentence": "Heute ist der 18.05.2022. Wir befinden uns in Bremen. Bl\u00fcht die Winterroggen derzeit?",
-        "response": false,
-        "reasoning": "Winterroggen (Secale cereale) wird im Herbst ausges\u00e4t und bl\u00fcht typischerweise im sp\u00e4ten Fr\u00fchjahr, meist von Mai bis Juni, abh\u00e4ngig von den klimatischen Bedingungen. Da wir uns am 18.05.2022 in Bremen befinden, ist die Bl\u00fctezeit des Winterroggens gerade erst im Anlaufen. In Bremen kann der Roggen Anfang Mai bis Mitte Juni bl\u00fchen, jedoch ist Mitte Mai oft noch zu fr\u00fch f\u00fcr eine volle Bl\u00fcte. Es ist m\u00f6glich, dass erste Bl\u00fctenans\u00e4tze vorhanden sind, aber die Winterroggen stehen in der Regel noch nicht in voller Bl\u00fcte.",
+        "response": "no",
+        "reasoning": "Winterroggen (Winter rye) in Bremen is typically sown in autumn and grows over winter and spring. The flowering period of Winterroggen is usually from late April to early June. Since today is May 18, 2022, it is quite possible that Winterroggen is currently flowering. However, given that flowering can vary with local conditions and the typical peak flowering time is around late April to early May, by mid-May the flowering might be ending or in full progress. Still, since the question is about whether it is flowering now, the best estimate is that Winterroggen is likely flowering in Bremen on this date.",
         "tokens": {
-            "completion_tokens": 147,
-            "prompt_tokens": 92,
-            "total_tokens": 239
+            "completion_tokens": 148,
+            "prompt_tokens": 114,
+            "total_tokens": 262
         }
     },
     {
@@ -299,12 +299,12 @@
         "city": "K\u00f6ln",
         "date": "23.06.2023",
         "sentence": "Heute ist der 23.06.2023. Wir befinden uns in K\u00f6ln. Bl\u00fcht die Winterroggen derzeit?",
-        "response": false,
-        "reasoning": "Winterroggen (Secale cereale) wird im Herbst ges\u00e4t und w\u00e4chst in den Winter- und Fr\u00fchjahrsmonaten. Die Bl\u00fctezeit liegt normalerweise zwischen Mai und Juni, je nach Wetter und Region. Am 23.06. in K\u00f6ln ist die Bl\u00fctephase des Winterroggens in der Regel bereits abgeschlossen oder geht dem Ende zu. Daher bl\u00fcht der Winterroggen zu diesem Zeitpunkt h\u00f6chstwahrscheinlich nicht mehr.",
+        "response": "no",
+        "reasoning": "Winterroggen wird im Herbst ausges\u00e4t und w\u00e4chst \u00fcber den Winter. Er ist im Juni in der Regel bereits abgeerntet oder steht kurz vor der Ernte, daher bl\u00fcht er zu diesem Zeitpunkt normalerweise nicht mehr.",
         "tokens": {
-            "completion_tokens": 110,
-            "prompt_tokens": 92,
-            "total_tokens": 202
+            "completion_tokens": 62,
+            "prompt_tokens": 114,
+            "total_tokens": 176
         }
     },
     {
@@ -313,12 +313,12 @@
         "city": "D\u00fcsseldorf",
         "date": "29.04.2021",
         "sentence": "Stellen wir uns vor, heute sei der 29.04.2021. Wir befinden uns in D\u00fcsseldorf. Bl\u00fcht die Winterroggen aktuell?",
-        "response": false,
-        "reasoning": "Winterroggen (Secale cereale) wird in Deutschland typischerweise im Herbst ges\u00e4t und bl\u00fcht je nach Sorte und Witterung normalerweise von Mitte Mai bis Anfang Juni. Am 29.04.2021 ist in D\u00fcsseldorf der Winterroggen in der Regel noch nicht ausgewachsen genug, um zu bl\u00fchen. Die Bl\u00fctezeit beginnt meist einige Wochen sp\u00e4ter.",
+        "response": "no",
+        "reasoning": "Winterroggen (Secale cereale) ist normalerweise eine Winterfrucht, die im Herbst ges\u00e4t wird und im sp\u00e4ten Fr\u00fchling, h\u00e4ufig im Mai oder Juni, zur Bl\u00fcte kommt. Am 29.04.2021 befindet sich der Winterroggen in D\u00fcsseldorf \u00fcblicherweise noch in der Vegetationsphase vor der Bl\u00fcte, daher bl\u00fcht er zu diesem Zeitpunkt in der Regel noch nicht.",
         "tokens": {
-            "completion_tokens": 97,
-            "prompt_tokens": 98,
-            "total_tokens": 195
+            "completion_tokens": 105,
+            "prompt_tokens": 120,
+            "total_tokens": 225
         }
     },
     {
@@ -327,12 +327,12 @@
         "city": "K\u00f6ln",
         "date": "11.04.2021",
         "sentence": "Stellen wir uns vor, heute sei der 11.04.2021. Wir befinden uns in K\u00f6ln. Bl\u00fcht die Winterroggen aktuell?",
-        "response": false,
-        "reasoning": "Winterroggen (Secale cereale) wird im Herbst ges\u00e4t und beginnt im Fr\u00fchjahr zu wachsen. In K\u00f6ln, mit gem\u00e4\u00dfigtem Klima, bl\u00fcht Winterroggen typischerweise zwischen Mai und Juni, wenn die Temperaturen steigen und die Tagesl\u00e4nge zunimmt. Am 11.04.2021 ist es in der Regel noch zu fr\u00fch f\u00fcr die Bl\u00fctephase, da die Pflanzen meist noch in der Vegetationsphase sind.",
+        "response": "no",
+        "reasoning": "Am 11.04.2021 in K\u00f6ln ist Winterroggen typischerweise bereits abgebl\u00fcht. Winterroggen wird im Herbst ausges\u00e4t und bl\u00fcht meist im sp\u00e4ten Fr\u00fchling, typischerweise im April oder Mai. Allerdings ist Anfang bis Mitte April meist noch in der Bl\u00fctezeit, aber aufgrund des Klimas in K\u00f6ln und der Wachstumsphase ist es sehr wahrscheinlich, dass die Hauptbl\u00fcte bereits stattgefunden hat oder gerade endet. Daher ist es wahrscheinlicher, dass Winterroggen Anfang April nicht mehr voll bl\u00fcht.",
         "tokens": {
-            "completion_tokens": 109,
-            "prompt_tokens": 98,
-            "total_tokens": 207
+            "completion_tokens": 136,
+            "prompt_tokens": 120,
+            "total_tokens": 256
         }
     }
 ]
